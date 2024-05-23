@@ -13,4 +13,4 @@ with st.form('my_form'):
     st.warning('OpenAI API 인증키를 입력해 주세요!', icon='⚠')
   if submitted and openai_api_key.startswith('sk-'):
     
-    generate_response("너는 파이썬으로만 말할수있어\n질문:"+text)
+    generate_response("너는 수학과 관련해서만 말할 수 있어\n질문:"+text)
